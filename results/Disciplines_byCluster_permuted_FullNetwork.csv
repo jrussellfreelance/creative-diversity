@@ -1,0 +1,22 @@
+Cluster_ID,Creative_Style,cluster_size,Discipline,Percent,Difference (%),Percent Difference,zScore
+Cluster_1,"Risk Averse, Routine Seeker, Hate Distractions, Monotasker, Make It Happen",1128,Arts-Design,76.77000000000001,-6.069999999999999,-7.329999999999998,-5.920555516709966
+Cluster_2,"Novelty Seeker, Risk Friendly, Stifled By Constraints, Internally Motivated, Multitasker",1257,Arts-Design,91.01,8.24,9.949999999999989,8.48104958258034
+Cluster_3,"Collaborator, Risk Friendly, Multitasker, Reframer, Kinetic",1112,Arts-Design,78.78,-4.02,-4.849999999999994,-4.05207930743518
+Cluster_4,"Novelty Seeker, Monotasker, Stifled By Constraints, Silence, Hate Distractions",798,Arts-Design,86.47,3.64,4.400000000000006,2.924737840656252
+Cluster_5,"Novelty Seeker, Externally Motivated, Outwardly Inspired, Collaborator, Noise/Music",589,Arts-Design,77.59,-5.16,-6.230000000000004,-3.497388527894062
+Cluster_6,"Routine Seeker, Private, Internally Motivated, Solo Creator, Inwardly Inspired",544,Arts-Design,86.21,3.4099999999999997,4.109999999999985,2.149751283090768
+Cluster_7,"Stifled By Constraints, Internally Motivated, Solo Creator, Night Owl, Risk Averse",236,Arts-Design,79.66,-3.2099999999999995,-3.8699999999999903,-1.31513559113322
+Cluster_1,"Risk Averse, Routine Seeker, Hate Distractions, Monotasker, Make It Happen",1128,Science-Engineering,50.980000000000004,-1.3299999999999998,-2.539999999999992,-0.9742184810850552
+Cluster_2,"Novelty Seeker, Risk Friendly, Stifled By Constraints, Internally Motivated, Multitasker",1257,Science-Engineering,54.339999999999996,2.06,3.950000000000003,1.6724470103823943
+Cluster_3,"Collaborator, Risk Friendly, Multitasker, Reframer, Kinetic",1112,Science-Engineering,57.28,5.0200000000000005,9.610000000000014,3.770229173254414
+Cluster_4,"Novelty Seeker, Monotasker, Stifled By Constraints, Silence, Hate Distractions",798,Science-Engineering,48.370000000000005,-3.82,-7.320000000000007,-2.3191817940483492
+Cluster_5,"Novelty Seeker, Externally Motivated, Outwardly Inspired, Collaborator, Noise/Music",589,Science-Engineering,50.59,-1.7000000000000002,-3.259999999999991,-0.8633474418509073
+Cluster_6,"Routine Seeker, Private, Internally Motivated, Solo Creator, Inwardly Inspired",544,Science-Engineering,49.08,-3.11,-5.959999999999994,-1.4947729289056833
+Cluster_7,"Stifled By Constraints, Internally Motivated, Solo Creator, Night Owl, Risk Averse",236,Science-Engineering,48.309999999999995,-3.9699999999999998,-7.590000000000003,-1.2382192803828838
+Cluster_1,"Risk Averse, Routine Seeker, Hate Distractions, Monotasker, Make It Happen",1128,Business-Entrepreneur,27.93,-7.180000000000001,-20.450000000000003,-5.68955410080742
+Cluster_2,"Novelty Seeker, Risk Friendly, Stifled By Constraints, Internally Motivated, Multitasker",1257,Business-Entrepreneur,34.61,-0.54,-1.5300000000000011,-0.44287021713940816
+Cluster_3,"Collaborator, Risk Friendly, Multitasker, Reframer, Kinetic",1112,Business-Entrepreneur,48.559999999999995,13.41,38.16,10.486588584368917
+Cluster_4,"Novelty Seeker, Monotasker, Stifled By Constraints, Silence, Hate Distractions",798,Business-Entrepreneur,32.58,-2.6100000000000003,-7.430000000000007,-1.6713721825312022
+Cluster_5,"Novelty Seeker, Externally Motivated, Outwardly Inspired, Collaborator, Noise/Music",589,Business-Entrepreneur,39.73,4.61,13.129999999999995,2.4836553978363094
+Cluster_6,"Routine Seeker, Private, Internally Motivated, Solo Creator, Inwardly Inspired",544,Business-Entrepreneur,27.76,-7.46,-21.179999999999993,-3.8977542624922266
+Cluster_7,"Stifled By Constraints, Internally Motivated, Solo Creator, Night Owl, Risk Averse",236,Business-Entrepreneur,23.73,-11.5,-32.64,-3.697718520955673
