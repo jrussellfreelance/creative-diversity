@@ -70,7 +70,6 @@ def make_tags_from_ordinal(df):
                "Workspace (Private -- Public)": ("Private Space", "Public Space"),
                "Noise (Silence -- Noise/Music)": ("Quiet/Silence", "Noise/Music"),
                "Nature (Urban -- Nature)": ("Non-Nature", "Nature"),
-               "Mood (Low -- High)": ("Emotionally Stable", "Tortured Artist"),  ## NOTE - not sure how to tag the low end.
                "Ritual (Novetly Seeker -- Creature of Habit)": ("Novelty Seeker", "Routine Seeker"),
                "Constraints (Stifle By -- Stimulated By)": ("Stifled By Constraints", "Stimulated By Constraints")}
 
@@ -136,7 +135,7 @@ def make_tags_from_ordinal(df):
 
 def clean_HC_data(infile, outfile, tagsfile):
     
-    df = pd.read_excel(infile, engine='openpyxl')
+    df = pd.csv(infile)
 
     ####################################
     # clean columns and define column types
@@ -174,11 +173,9 @@ def clean_HC_data(infile, outfile, tagsfile):
      'Workspace (Private -- Public)',
      'Noise (Silence -- Noise/Music)',
      'Nature (Urban -- Nature)',
-     'Mood (Low -- High)',
      'Ritual (Novetly Seeker -- Creature of Habit)',
      'Constraints (Stifle By -- Stimulated By)',
      'Creative Biorhythm',
-     #'Creative Strength'
      ]
     
     df['fracAnswered'] = (len(surveyCols) - df[surveyCols].isnull().sum(axis=1))/len(surveyCols) #summarize by row across questions
@@ -215,7 +212,6 @@ def clean_HC_data(infile, outfile, tagsfile):
      'Workspace (Private -- Public)',
      'Noise (Silence -- Noise/Music)',
      'Nature (Urban -- Nature)',
-     'Mood (Low -- High)',
      'Ritual (Novetly Seeker -- Creature of Habit)',
      'Constraints (Stifle By -- Stimulated By)'
      ]
@@ -241,7 +237,6 @@ def clean_HC_data(infile, outfile, tagsfile):
      'Workspace (Private -- Public)': "Private -- Public Workspace",
      'Noise (Silence -- Noise/Music)': "Work in Silence -- Noise/Music",
      'Nature (Urban -- Nature)': "Urban -- Nature",
-     'Mood (Low -- High)': 'Tortured Artist',
      'Ritual (Novetly Seeker -- Creature of Habit)': "Novetly Seeker -- Creature of Habit",
      'Constraints (Stifle By -- Stimulated By)': "Stifled_By -- Stimulated_By Constraints"}
  

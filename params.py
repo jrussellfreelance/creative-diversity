@@ -24,16 +24,16 @@ all_linksPer = [6, 7, 8, 9, 10, 11, 12]  # list of link densities to run - > 10 
 final_linksPer = 10
 tags = 'tags' # tag attribute for linking
 tagattr = tags + "_list"  # buildNetwork needs tags as a list
-blacklist = ["Emotionally Stable", "Tortured Artist"]  # excluded habits from original survey
+blacklist = []  # excluded habits from original survey
 maxtags = 10  # top tags to compare for cluster similarity
 weighted = True # compare clusters using weighted tag distribution rather than top tags.
 
 
 # filenames 
-responses_raw_data = datapath/"HC-Responses-Final.xlsx"  # raw survey respones
+responses_raw_data = datapath/"CreativeStyle_Responses.csv"  # raw survey respones
 responses_cleaned_processed = datapath/"CreativeStyle_Responses_Tagged_Cleaned.xlsx"  # cleaned file with tags
 tagdistr_file = datapath/"tags_distribution.csv"  # tag distribution summary
-discipline_map = datapath/"discipline_mapping_final.csv" # map detailed discipline tags to art, science, business
+discipline_map = datapath/"discipline_mapping.csv" # map detailed discipline tags to art, science, business
 gender_map = datapath/"gender_mapping.csv"
 
 # final run filenames
